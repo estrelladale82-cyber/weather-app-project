@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App Project for Alt School</title>
+ <link rel="stylesheet" href="style.css">
+
+  </head>
+
+ 
+  <body>
+    <!-- App title goes here -->
+
+    <div class="weather-card">
+      <div class="header">
+        <h1>Weather App</h1>
+      </div>
+
+      <!-- City search and weather request section -->
+
+      <form class="input-value">
+        <span class="city-input"
+          ><input type="text" placeholder="Enter city name..."
+        /></span>
+        <span class="search-action"
+          ><input type="submit" value="Search"
+        /></span>
+      </form>
+
+      <!-- Error message -->
+      <p class="error-message hidden">
+        City not found. Please check the spelling and try again.
+      </p>
+
+      <!-- Loading indicator -->
+      <div class="loading hidden">
+        <div class="spinner"></div>
+        <p>Fetching weather data...</p>
+      </div>
+
+      <!-- Hero section displaying today's weather -->
+
+      <div class="weather-today">
+        <ul>
+          <li class="weather-icon">☀️</li>
+          <li class="location">Lagos, Nigeria</li>
+          <li class="temperature">32°C</li>
+          <li class="feeling">Sunny . Feels like 36°C</li>
+        </ul>
+      </div>
+
+      <!--    Weather parameter information display -->
+
+      <div class="parameter-card">
+        <dl class="parameter">
+          <div class="parameter-value">
+            <dt class="atmosphere">Humidity</dt>
+            <dd class="values">78%</dd>
+          </div>
+
+          <div class="parameter-value">
+            <dt class="atmosphere">Wind</dt>
+            <dd class="values">14 km/h</dd>
+          </div>
+
+          <div class="parameter-value">
+            <dt class="atmosphere">UV Index</dt>
+            <dd class="values">High</dd>
+          </div>
+        </dl>
+      </div>
+
+      <!-- Five day weather forecast section -->
+
+      <h2>5-DAY FORECAST</h2>
+
+      <div class="day">
+        <span class="week-day">Today</span> <span class="icons">🌤️</span>
+        <span class="daily-temp">
+          <strong>34°</strong>
+          <small>27°</small>
+        </span>
+      </div>
+
+      <div class="day">
+        <span class="week-day">Tuesday</span>
+        <span class="icons">🌤️</span>
+        <span class="daily-temp">
+          <strong>34°</strong>
+          <small>27°</small>
+        </span>
+      </div>
+
+      <div class="day">
+        <span class="week-day">Wednesday</span>
+        <span class="icons">🌤️</span>
+        <span class="daily-temp">
+          <strong>34°</strong>
+          <small>27°</small>
+        </span>
+      </div>
+
+      <div class="day">
+        <span class="week-day">Thursday</span>
+        <span class="icons">🌤️</span>
+        <span class="daily-temp">
+          <strong>34°</strong>
+          <small>27°</small>
+        </span>
+      </div>
+
+      <div class="day">
+        <span class="week-day">Friday</span>
+        <span class="icons">🌤️</span>
+        <span class="daily-temp">
+          <strong>34°</strong>
+          <small>27°</small>
+        </span>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
