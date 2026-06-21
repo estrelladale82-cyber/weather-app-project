@@ -1,4 +1,4 @@
-# Name- Eleojo Esther Akpa
+# Eleojo Esther Akpa
 **Student ID:** ALT/SOE/BAR/026/0147
 **Institution:** ALT School Africa  
 **Program:** Front End Engineering 
